@@ -1,0 +1,8 @@
+{
+  "name": "scraping",
+  "version": "0.0.1",
+  "description": "test scraping",
+  "main": "index.js",
+  "author": "KinoshitaYstr",
+  "license": "MIT"
+}
