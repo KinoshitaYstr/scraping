@@ -13,6 +13,7 @@ const main = async () => {
     console.log(dom.window.document.body.getElementsByTagName("img"));
     console.log("jsdomだと中身取りやすいけども画像の取得とかが難しいね???うまくいってるかわからぬ");
 
+    
 }
 
 main();
