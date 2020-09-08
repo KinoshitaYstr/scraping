@@ -1,11 +1,13 @@
-const axios = require("axios");
+const {JSDOM} = require("jsdom");
 
 const url = "http://abehiroshi.la.coocan.jp/";
 
 const main = async () => {
-
-    const data = await axios.get(url);
-    console.log(data.data);
+    // jsdom飲みのテスト
+    const dom = await JSDOM.fromURL(url);
+    console.log(dom.window.document.title);
+    console.log(dom.window.document.body.textContent);
+    
 }
 
 main();
