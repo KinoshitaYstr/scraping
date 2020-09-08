@@ -4,5 +4,8 @@
   "description": "test scraping",
   "main": "index.js",
   "author": "KinoshitaYstr",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  }
 }
